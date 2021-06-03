@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "icon" href="img/JC.jpg">
+	<title>JAY COBB</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://kit.fontawesome.com/3a42438233.js" crossorigin="anonymous"></script>
+  	<script src="js/wow.min.js"></script>
+	<script>new wow().init();</script>
+  	
+
+	<script>new WOW().init();</script>
+	
+	
+
+</head>
+<style>
+	.campus img{
+		transition: 0.5s;
+		border-radius: 50px;
+	}
+	.campus img:hover{
+		transform: translateY(-10px);
+	}
+	@media(max-width: 700){
+		.course h1{
+			margin-top: 50px;
+		}
+		
+	}		
+</style>
+<body>	
+	<section class="header">
+			<nav>
+				<img src="img/JC.jpg" alt="not been seen" width="80" height="80"> 
+				<div class="nav-links" id="navLinks">
+					<i class="fas fa-window-close" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="ABOUTME.html">ABOUT</a></li>
+						<li><a href="Family.html">FAMILY GALLERY</a></li>
+						<li><a href="Favorite.html">FAVORITE</a></li>
+						<li><a href="Motto.html">MOTTO</a></li>				
+					</ul>						
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+
+			</nav>
+
+		<div class="banner-area" >
+			<div class="layer"></div>
+			<h2 >THE THINGS I EVER DID</h2>
+		</div>
+		<div class="about-area" >
+			<p><a style="text-decoration: none; "href="https://www.facebook.com/hardwellmoya" style="color:white;"> <img src="img/PIC.png" alt="not been seen" style="width:50px;height:50px;"></a> <a href="https://www.pinterest.ph/" style="color:white;"><img src="img/Pin.png" alt="not been seen" style="width:50px;height:50px;"></a> <a href="https://www.instagram.com/?hl=en" style="color: white;"><img src="img/insta.png" alt="not been seen"style="width:50px;height:50px;"></a></p>
+			<a href="https://mail.google.com/mail/u/1/#inbox" class="btn">Email me here<span></span></a>
+		</div>
+	</section>
+
+
+		
+
+	<script >
+		var navLinks = document.getElementById("navLinks")
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+	
+		
+
+
+
+
+<hr> </hr>
+	<section class="course" style="margin-bottom: 10%; ">
+	<h1 style=" border-radius: 50px; color: #000; letter-spacing: 15px;">EDUCATIONAL</h1>
+	<div class="row" >
+		<div class="course-col" style="margin-top: 5%; padding-top: 25px; background-color:#292828 ; color: white;" >
+			<h3>Elementary</h3>
+			<p style="color: #9c9c9c"> Graduated<br>(2007 - 2014)<br>
+			Barangay Singcang-Airport, Bacolod, 6100 Negros Occidental
+			</p>
+		</div>
+		<div class="course-col" style="margin-top: 5%; padding-top: 25px; background-color:#292828 ; color: white;">
+			<h3>High School</h3>
+			<p style="color: #9c9c9c"> Graduated<br>Junior High and Senior High School
+			with Honor <br>
+			(2014 - 2020)<br>
+			Paglaum Rd, Bacolod, 6100 Negros Occidental	
+			</p>
+		</div>
+		<div class="course-col" style="margin-top: 5%; padding-top: 25px; background-color:#292828 ; color: white;">
+			<h3>College</h3>
+			<p style="color: #9c9c9c">(Present) <br>
+			Specialize <br>
+			Bachelor of Information Technology <br>
+			#51 Lizares St, Bacolod, 6100 Negros Occidental	
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="campus">
+		<h1 style="border-radius: 50px;color: #000;">SCHOOL CAMPUS </h1>
+		<div class="row">
+			<div class="campus-col">
+				<img src="img/mage.jpeg" height="400" style="">
+				<p style="font-size: 20px; font-family: Roboto Slab;padding-top: 30px; color: black;line-height: 30px;">
+				JOSE R. TORRES ELEMENTARY SCHOOL</p>
+			</div>
+			<div class="campus-col">
+				<img src="img/nohs.jpg" height="400" >
+				<p style="font-size: 20px;padding-top: 30px; font-family: Roboto Slab; color: black; line-height: 30px;">NEGROS OCCIDENTAL HIGH SCHOOL</p>
+			</div>
+			<div class="campus-col">
+				<img src="img/Ent.jpg" height="400">
+				<p style="font-size: 20px; font-family: Roboto Slab; padding-top: 30px; color: black;  line-height: 30px;">
+				UNIVERSITY OF NEGROS OCCIDENTAL-RECOLETOS</p>
+			</div>
+		</div>
+</section>
+
+<hr style="margin-top: 100px; margin-bottom: -105px"> </hr>
+<section class="skul">
+	<img src="img/tech.png" alt="#" width="300" height="300">
+</section>
+
+</body>
+</html>
